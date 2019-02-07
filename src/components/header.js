@@ -15,7 +15,7 @@ class Header extends React.Component {
   componentDidMount() {
     netlifyIdentity.init()
   }
-  
+
   render() {
     const { siteTitle } = this.props;
 
@@ -38,7 +38,7 @@ class Header extends React.Component {
     >
 
     {/* Title | Logo */}
-    <span style={{ display: 'flex', alignItems: 'center' }}>
+    <span style={{ display: 'flex', alignItems: 'flex-start' }}>
       <img 
         src={gatsbyLogo} 
         alt='Logo' 
