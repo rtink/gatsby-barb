@@ -633,3 +633,29 @@ pre tt:after {
   color: white;
   text-decoration: none;
 }
+
+/* Netlify Identity */
+
+.netlify-identity-menu {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.netlify-identity-signup {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.netlify-identity-login {
+  color: white;
+  text-decoration: none;
+}
+
+.netlify-identity-logout {
+  color: white;
+  text-decoration: none;
+}
